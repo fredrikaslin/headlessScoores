@@ -21,6 +21,7 @@ namespace Scoores.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
+
             return "value";
         }
 
